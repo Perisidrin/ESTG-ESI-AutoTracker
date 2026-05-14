@@ -28,6 +28,7 @@ Ator: Utilizador.
 
 Descrição: O sistema processa os dados da base de dados e apresenta resumos gráficos ou numéricos dos gastos mensais.
 
+```mermaid
 useCaseDiagram
     actor "Utilizador" as U
     
@@ -44,3 +45,4 @@ useCaseDiagram
     U --> UC3
     U --> UC4
     U --> UC5
+```
