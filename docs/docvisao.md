@@ -1,17 +1,17 @@
 # Documento de Visão - AutoTracker
 
 ### (a) Objetivo
-O AutoTracker tem como principal objetivo facilitar a gestão e manutenção de veículos pessoais. O sistema permitirá aos utilizadores registar e monitorizar, de forma centralizada, todas as despesas recorrentes associadas às suas viaturas, incluindo abastecimentos de combustível, manutenções periódicas, pagamentos de seguros e datas de inspeção obrigatória.
+O AutoTracker tem como principal objetivo facilitar a gestão e manutenção de veículos pessoais. O sistema permite que os seus utilizadores possam registar e monitorizar, de forma centralizada, todas as despesas recorrentes associadas aos seus veículos, como abastecimentos de combustível, manutenções periódicas, pagamentos de seguros, e datas de inspeção obrigatória.
 
 ### (b) Escopo
-O sistema é concebido para uso pessoal e doméstico, podendo ser utilizado por qualquer proprietário de um veículo automóvel ou motociclo que deseje ter um controlo financeiro e mecânico mais rigoroso sobre o seu meio de transporte.
+O sistema foi pensado para uso pessoal e doméstico, podendo ser utilizado por qualquer proprietário de um veículo automóvel ou motociclo que deseje ter um controlo financeiro e mecânico mais rigoroso sobre a sua propriedade.
 
 ### (c) Partes Interessadas (Stakeholders)
 * **Utilizadores Finais (Proprietários de Veículos):** São os utilizadores principais do sistema, que irão inserir os dados e beneficiar do histórico e dos alertas gerados.
 * **Profissionais de Manutenção (Indiretamente):** Mecânicos e oficinas podem beneficiar da organização do histórico do veículo, caso o proprietário partilhe as informações geradas pelo sistema.
 
 ### (d) Equipa do Projeto
-* **Desenvolvedor Único:** Pedro Meneses (Nº 60029) - Responsável pelo levantamento de requisitos, design, implementação e testes da aplicação.
+* **Desenvolvedor:** Pedro Meneses (Nº 60029)
 
 ### (e) Características do Sistema (Lista de Funcionalidades)
 * Gestão do perfil do veículo (Matrícula, Marca, Modelo).
