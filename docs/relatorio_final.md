@@ -26,11 +26,10 @@ Para garantir a organização e controlo do projeto face ao prazo de entrega, fo
 
 ### 2.1. Gestão de Tarefas (Quadro Kanban)
 O fluxo de trabalho foi integralmente mapeado utilizando a ferramenta **GitHub Projects**, através de um quadro Kanban composto por três colunas dinâmicas: *To do* (Por Fazer), *In Progress* (Em Progresso) e *Done* (Concluído). Esta ajuda visual permitiu monitorizar o progresso de cada etapa (desde a especificação inicial de requisitos até à validação final do código), de forma a não nos esquecer de etapas cruciais.
-
-> **Espaço reservado para visualização do fluxo de trabalho:**
-> *Inserir aqui o print screen do quadro Kanban finalizado, demonstrando todas as tarefas de planeamento, modelação, implementação e testes na coluna 'Done'.*
->  
-> `[INSERIR_PRINT_1: Quadro Kanban Finalizado no GitHub Projects]`
+<p align="center">
+  <img src="img/kanban.png" alt="Quadro Kanban Finalizado no GitHub Projects" width="85%">
+  <br><em>Figura 1: Fluxo de trabalho e gestão de tarefas no GitHub Projects.</em>
+</p>
 
 ### 2.2. Requisitos Baseados em User Stories
 Os requisitos funcionais foram registados sob a perspetiva do utilizador através de **User Stories** detalhadas. Cada história foi acompanhada pelos respetivos **Critérios de Aceitação**, servindo como um modelo para a fase de desenvolvimento do código e como guia para a fase de testes de aceitação. Isto garantiu que nenhuma funcionalidade fosse desenvolvida sem uma justificação de valor para o utilizador final.
@@ -65,20 +64,20 @@ A arquitetura do AutoTracker segue o padrão clássico **Client-Server (Cliente-
 ### 4.2. Demonstração do Sistema em Funcionamento
 O sistema foi testado com sucesso em ambiente local, apresentando uma navegação fluida entre ecrãs e cálculos matemáticos precisos no servidor.
 
-> **Visualização da Página Principal (Dashboard):**
-> *Inserir aqui o print screen do ecrã principal, evidenciando os cartões de Visão Geral com os somatórios dinâmicos e a tabela de Últimos Registos populada.*
->  
-> `[INSERIR_PRINT_2: Interface do Dashboard Principal]`
+<p align="center">
+  <img src="img/dashboard.png" alt="Interface do Dashboard Principal" width="85%">
+  <br><em>Figura 2: Interface principal do AutoTracker com dados dinâmicos.</em>
+</p>
 
-> **Visualização do Fluxo de Inserção de Dados:**
-> *Inserir aqui o print screen do formulário de Novo Registo, destacando a nova 'Dropdown' funcional que permite selecionar o veículo alvo da despesa.*
->  
-> `[INSERIR_PRINT_3: Formulário de Adicionar Registo com Seleção de Veículo]`
+<p align="center">
+  <img src="img/registo_veiculo.png" alt="Formulário de Adicionar Registo com Seleção de Veículo" width="85%">
+  <br><em>Figura 3: Formulário de Novo Registo com dropdown dinâmica para seleção do veículo.</em>
+</p>
 
-> **Visualização do Painel de Detalhes por Viatura:**
-> *Inserir aqui o print screen da página que se abre ao clicar na seta lateral de um veículo, mostrando o histórico filtrado exclusivamente para essa viatura.*
->  
-> `[INSERIR_PRINT_4: Ecrã de Detalhes do Veículo Filtrado]`
+<p align="center">
+  <img src="img/detalhes_veiculo.png" alt="Ecrã de Detalhes do Veículo Filtrado" width="85%">
+  <br><em>Figura 4: Painel detalhado com o histórico isolado da viatura.</em>
+</p>
 
 ---
 
@@ -95,10 +94,10 @@ O software foi pensado contra falhas comuns de preenchimento humano:
 ### 5.2. Testes Unitários Automatizados
 Para além das validações manuais, foram desenvolvidos testes automatizados recorrendo à biblioteca **`unittest`** do Python. O script `test_app.py` simula um cliente web de teste, verifica o comportamento das rotas principais (`/` e `/novo_registo`) e valida se o servidor responde com o código `200 OK` e com o conteúdo HTML esperado.
 
-> **Confirmação de Sucesso dos Testes Automatizados:**
-> *Inserir aqui o print screen do terminal após executar o comando 'python test_app.py', evidenciando o resultado 'OK'.*
->  
-> `[INSERIR_PRINT_5: Resultado dos Testes Unitários Executados com Sucesso]`
+<p align="center">
+  <img src="img/teste.png" alt="Resultado dos Testes Unitários" width="500">
+  <br><em>Figura 5: Execução com sucesso dos testes automatizados no terminal.</em>
+</p>
 
 ---
 
